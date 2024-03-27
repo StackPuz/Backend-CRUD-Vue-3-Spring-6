@@ -23,7 +23,7 @@
             </div>
             <div class="form-group col-md-6 col-lg-4">
               <label for="product_image">Image</label>
-              <input type="file" id="product_image" name="imageFile" class="form-control form-control-sm" maxlength="50" />
+              <input type="file" accept="image/*" id="product_image" name="imageFile" class="form-control form-control-sm" maxlength="50" />
               <span v-if="errors.image" class="text-danger">{{errors.image}}</span>
             </div>
             <div class="col-12">
